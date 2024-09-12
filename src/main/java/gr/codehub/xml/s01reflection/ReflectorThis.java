@@ -13,7 +13,7 @@ public class ReflectorThis {
         String className = "gr.codehub.xml.s01reflection.ReflectorThis";
         System.out.println("This demo scans the fields of this class (" + className + ")");
         Class cls = Class.forName(className);
-        Field fieldList[] = cls.getDeclaredFields();
+        Field[] fieldList = cls.getDeclaredFields();
         for (int i = 0; i < fieldList.length; i++) {
             Field field = fieldList[i];
             System.out.println("name = " + field.getName());
