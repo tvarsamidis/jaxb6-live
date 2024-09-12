@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company>
+    <staff id="10">
+        <name>Anna Banna</name>
+        <role>support</role>
+        <salary currency="EUR">1500</salary>
+        <!-- for special characters like < &, need CDATA -->
+        <bio><![CDATA[HTML tag <code>testing</code>]]></bio>
+    </staff>
+    <staff id="101">
+        <name>Hanna Kanna</name>
+        <role>admin</role>
+        <salary currency="USD">1800</salary>
+        <bio><![CDATA[a & b]]></bio>
+    </staff>
+</Company>
